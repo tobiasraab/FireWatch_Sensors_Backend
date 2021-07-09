@@ -55,11 +55,20 @@ Our sensor stations will track the environmental conditions in your forest to gi
 ## Software Architecture
 
 ### Frontend Application
-https://github.com/MalteOp/fire_watch_frontend
+https://github.com/tobiasraab/FireWatch_App_Frontend
 
 ### Backend Application
-https://github.com/tobiasraab/FireWatch_ApplicationBackend
+#### User Service
+https://github.com/tobiasraab/FireWatch_App_Backend_userService
 
+#### Database Service
+https://github.com/tobiasraab/FireWatch_APP_Backend_databaseService
+
+#### Weather Service
+https://github.com/tobiasraab/FireWatch_App_Backend_weatherService
+
+### Sensor Backend
+https://github.com/tobiasraab/FireWatch_Sensors_Backend
 
 ### MongoDB Database
 https://www.mongodb.com/
@@ -71,10 +80,6 @@ https://www.mongodb.com/
 * 0.5kB per user
 #### Collection weather:<br>
 * 0.8kB per forest
-* 
-
-### Sensor Backend
-https://github.com/tobiasraab/FireWatch_SensorBackend
 
 
 
