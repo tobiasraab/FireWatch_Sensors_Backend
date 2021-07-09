@@ -1,0 +1,24 @@
+{
+  "name": "firewatch_sensors_backend",
+  "version": "1.0.0",
+  "description": "Fire Watch is an open source product to help prevent forest fires in different climatic zones.\r Our sensor stations will track the environmental conditions in your forest to give you all the information you need to prevent a fire.",
+  "main": "pushDataInDatabase.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tobiasraab/FireWatch_Sensors_Backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tobiasraab/FireWatch_Sensors_Backend/issues"
+  },
+  "homepage": "https://github.com/tobiasraab/FireWatch_Sensors_Backend#readme",
+  "dependencies": {
+    "mongodb": "^3.6.9",
+    "mqtt": "^4.2.6",
+    "uuid": "^8.3.2"
+  }
+}
