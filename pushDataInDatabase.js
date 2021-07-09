@@ -1,6 +1,12 @@
+if (process.env.NODE_ENV == 'production') {
+    require('dotenv').config({ path: './.env' });
+}
+
+
 //environment variables
 // Database
-const dbUri = process.env.DB_URI
+const dbUri = process.env.DB_URI.toString()
+console.log(dbUri)
 
 
 //modules
