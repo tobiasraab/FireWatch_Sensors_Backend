@@ -16,7 +16,7 @@ RUN npm install
 COPY . .
 
 # Network / reverse proxy config
-LABEL traefik.http.routers.firewatch_pushDataInDatabase.rule="Host(`firewatch_pushDataInDatabase.ds.ava.hfg.design`)"
+LABEL traefik.http.routers.firewatch_pushdataindatabase.rule="Host(`firewatch_pushdataindatabase.ds.ava.hfg.design`)"
 
 EXPOSE 3000
 CMD [ "node", "pushDataInDatabase.js" ]
